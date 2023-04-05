@@ -3,10 +3,10 @@
 ACTION=$1
 
 if [ "$ACTION" == "start" ];then
-   echo "Service is Starting but mention service name also "
+   echo "I am starting service"
 
 elif [ "$ACTION" == "stop" ];then
-   echo "Service is Stopping but mention service name also "
+   echo "I'm stopping service"
 
 else
    echo "Service status is unknown"
